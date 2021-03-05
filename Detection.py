@@ -3,7 +3,6 @@ import cv2 as cv
 import numpy as np
 
 
-# ÂÖÀª·¢ÏÖ
 def contous_image(image):
     dst = cv.GaussianBlur(image, (3, 3), 0)
     gray = cv.cvtColor(dst, cv.COLOR_BGR2GRAY)
